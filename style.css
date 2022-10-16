@@ -5,6 +5,7 @@
 }
 
 html {
+  font-family: 'Gurajada', serif;
   font-size: 10px;
 }
 
@@ -12,11 +13,6 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
-}
-
-#wrapper {
-  margin: 1%;
-  height: 55rem;
 }
 
 .container {
@@ -31,7 +27,20 @@ body {
 }
 
 .tittle__box {
-  font-size: 24px;
+  font-size: 64px;
+}
+
+.table__box {
+  width: 100%;
+}
+
+.table__row {
+  font-family: 'Gurajada', serif;
+  background-color: #f1f1f1;
+  width: 60px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 14px;
 }
 
 .input__button__box {
@@ -39,17 +48,22 @@ body {
 }
 
 #input__box {
+  font-family: 'Gurajada', serif;
+  float: left;
   border: 1px solid #000000;
-  border-radius: 4px;
-  width: 50%;
-  height: 30px;
+  border-radius: 12px;
+  width: 192px;
+  height: 60px;
+  color: #000000;
+  font-size: 60px;
+  text-align: center;
 }
 
 .button__box {
-  border: 1px solid #000000;
-  border-radius: 4px;
-  width: 30px;
-  height: 30px;
+  border: 4px solid #000000;
+  border-radius: 12px;
+  width: 60px;
+  height: 62px;
   background-color: #fff;
   color: #000000;
   cursor: pointer;
@@ -57,19 +71,45 @@ body {
 
 .button__add {
   background-color: #000000;
-  color: #fff;
-  border-radius: 4px;
-  width: 90%;
-  height: 50px;
+  color: #FFFFFF;
+  border-radius: 12px;
+  width: 200px;
+  height: 60px;
   cursor: pointer;
+  font-size: 32px;
+}
+
+.fa-plus{
+  font-size: 30px;
+}
+
+.not__recom{
+  padding-top: 10%;
+  width: 267px;
+  height: 50px;
+  position: relative;
+  margin: auto;
+
+  font-size: 36px;
+}
+
+.fa-circle-xmark{
+  margin-left: 8%;
+  float:left;
+  color: red;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 800px) {
   .container {
-    width: 50%;
+    width: 390px;
+    height: 893px;
   }
 
-  .input__button__box {
-    padding: 25%;
+  .img__box {
+    width: 390px;
+  }
+  .button__add {
+    width: 30%;
   }
 }

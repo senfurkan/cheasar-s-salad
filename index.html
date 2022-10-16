@@ -8,20 +8,39 @@
     <title>add food</title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/8167b708c2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Gurajada&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div id="wrapper">
-        <div class="container">
-            <img src="images/restaurant-7174377_1920.jpg" alt="" class="img__box">
-            <p class="tittle__box"><b>Cheasar's Salad</b></p>
-            <div class="input__button__box">
-                <input type="text" value="1" id="input__box">
-                <button class="button__box" onclick="btnPlus()">+</button>
-            </div>
-            <button class="button__add" onclick="btnAdd()">ADD</button>
+
+    <div class="container">
+        <img src="images/ceaser salad.png" alt="" class="img__box">
+        <p class="tittle__box"><b>Cheasar's Salad</b></p>
+        <table class="table__box">
+            <th></th>
+            <th class="table__row">Protein<br />42</th>
+            <th></th>
+            <th class="table__row">Protein<br />42</th>
+            <th></th>
+            <th class="table__row">Protein<br />42</th>
+            <th></th>
+            <th class="table__row">Protein<br />42</th>
+            <th></th>
+        </table>
+        <div class="input__button__box">
+            <input type="text" value="1" id="input__box">
+            <button class="button__box" onclick="btnPlus()"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <button class="button__add" onclick="btnAdd()">Add</button>
+        <div class="not__recom">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <p class="attempt">Not Recommend</p>
         </div>
     </div>
+
+
 </body>
 
 </html>
