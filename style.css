@@ -102,12 +102,12 @@ body {
 
 @media screen and (max-width: 800px) {
   .container {
-    width: 390px;
-    height: 893px;
+    width: 100%;
+    height: auto;
   }
 
   .img__box {
-    width: 390px;
+    width: 100%;
   }
   .button__add {
     width: 30%;
